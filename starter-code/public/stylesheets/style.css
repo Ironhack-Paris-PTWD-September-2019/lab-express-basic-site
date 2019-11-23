@@ -67,6 +67,10 @@ a:hover {
   text-align:justify;
   padding:10px;
 }
+
+#hero {
+  width:80%;
+}
 .photos {
   display:flex; 
   justify-content: space-around;
