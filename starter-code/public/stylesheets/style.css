@@ -1,0 +1,81 @@
+* :before, after {
+    box-sizing:border-box;
+    
+    }
+
+body {
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    background: black;
+    height: 100vh;
+} /* reset */
+
+img {
+max-width:100%;
+}
+
+h1 {
+    font-size:5em;
+    color:pink;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 4em;
+    color:pink;
+    text-align: center;
+}
+
+.photoHP {
+    display:block;
+    margin: 5em auto;
+    padding: 5em;
+    width:70%;
+    border: solid 5px pink;
+
+}
+
+.memeTaille {
+    margin-left:auto;
+    margin-right:auto;
+    
+    display:block;
+    width:70%;
+    
+}
+
+.liens {
+    color:pink;
+    font-size:2.5em;
+    display:flex;
+    padding:2em;
+    justify-content: space-between;
+    margin-bottom:1em;
+    margin-top:auto;
+
+}
+
+a { text-decoration: none;
+    color:inherit;}
+
+p {
+    padding-left: 5em;
+    padding-right: 5em;
+    color:white;
+    text-align:justify;
+    font-size:0.9em;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:5em;
+}
+
+.trente {
+    width:30%;
+    padding:1em;
+}
