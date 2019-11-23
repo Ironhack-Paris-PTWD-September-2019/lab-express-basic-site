@@ -25,7 +25,7 @@ h2 {
 	font-family: "Roboto Condensed", sans-serif;
 	margin: 0.5em 0;
 }
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	h1,
 	h2 {
 		font-size: 200%;
@@ -37,9 +37,9 @@ span {
 	font-family: "Roboto Condensed", sans-serif;
 	text-align: justify;
 	padding: 0 2em;
-	margin: 0.5em 0;
+	margin: 0.4em 0;
 }
-@media (min-width: 900px) {
+@media (min-width: 700px) {
 	p,
 	span {
 		padding: 0 10em;
@@ -59,7 +59,7 @@ li {
 	display: inline-block;
 	margin: 0 1.5em;
 }
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	li {
 		margin-left: 2.5em;
 	}
@@ -81,7 +81,7 @@ CLASSES
 	width: 40%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	.app-logo {
 		width: 15%;
 	}
@@ -93,7 +93,7 @@ CLASSES
 	border: 2px solid #005073;
 	border-radius: 20px;
 }
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	.img-gallery {
 		width: 30%;
 	}
@@ -102,12 +102,14 @@ CLASSES
 .main,
 .main.gallery {
 	width: 100vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	.main.gallery {
 		flex-direction: row;
 		justify-content: space-around;
@@ -126,11 +128,23 @@ CLASSES
 	text-align: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	.header {
 		justify-content: left;
 		text-align: left;
 	}
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
 /* ---- 
@@ -142,8 +156,8 @@ ID
 	width: 50%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 650px) {
 	#img-maria-lambour {
-		width: 15%;
+		width: 12%;
 	}
 }
