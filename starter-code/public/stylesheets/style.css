@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+header{
+    height: 100px;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+nav img {
+    width: 50px;
+}
+
+.personnage img {
+    width: 100%;
+}
+
+.us img {
+    width: 150px;
+    border-radius: 20px;;
+}
+
+#moustapha {
+    text-align: right;
+}
+
+.photos img {
+    width: 250px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
