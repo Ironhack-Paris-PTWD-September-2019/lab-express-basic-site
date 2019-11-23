@@ -1,0 +1,30 @@
+/*HEADER*/
+
+h1 {
+
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    
+}
+
+#header img {
+    height: 5em;
+}
+
+#header h1 {
+    margin-left: auto;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main img {
+
+    width: 100%;
+
+}
