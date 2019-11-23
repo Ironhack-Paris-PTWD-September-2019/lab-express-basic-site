@@ -1,0 +1,89 @@
+* {box-sizing:border-box;} 
+body {
+  background: #FFFAF0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+nav {
+  display: flex;
+  background: #323334;;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom:1em;
+
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  padding:0.5em;
+  width:30%;
+  text-align: center;
+
+}
+
+a:hover {
+  background-color: #404142;
+  cursor: pointer;
+}
+
+.clapton-picture {
+  width:80%;
+}
+
+.container {
+
+
+}
+#aud {
+  height:3em;
+  margin-top: 1em;
+}
+.homepage {
+ display:flex; 
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+ vertical-align: center;
+
+}
+.homepage h1 {
+  margin-bottom:1em;
+  margin-top:0;
+
+}
+
+.homepage h2 {
+  font-size:1.2em;
+  text-align: center;
+}
+
+.biography p {
+  text-align:justify;
+  padding:10px;
+}
+.photos {
+  display:flex; 
+  justify-content: space-around;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  flex:1;
+}
+.photos img{
+  width:44vw;
+  margin:0.2em;
+}
+footer {
+  text-align: center;
+  width:100%;
+  padding-bottom:0.4em;
+  padding-top:0.4em;
+  background-color:#323334; 
+  color:white;
+}
