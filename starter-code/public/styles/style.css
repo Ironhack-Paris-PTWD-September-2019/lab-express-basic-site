@@ -1,0 +1,163 @@
+/* ---- 
+DEFAUT
+---- */
+*,
+:before,
+:after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+/* ---- 
+CLASSES
+---- */
+
+a {
+	font-family: "Roboto Condensed", sans-serif;
+	text-decoration: none;
+	color: lightskyblue;
+}
+
+h1,
+h2 {
+	font-family: "Roboto Condensed", sans-serif;
+	margin: 0.5em 0;
+}
+@media (min-width: 650px) {
+	h1,
+	h2 {
+		font-size: 200%;
+	}
+}
+
+p,
+span {
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: justify;
+	padding: 0 2em;
+	margin: 0.4em 0;
+}
+@media (min-width: 700px) {
+	p,
+	span {
+		padding: 0 10em;
+		margin: 1em 0;
+		font-size: 120%;
+	}
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+li {
+	display: inline-block;
+	margin: 0 1.5em;
+}
+@media (min-width: 650px) {
+	li {
+		margin-left: 2.5em;
+	}
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* ---- 
+CLASSES
+---- */
+.active-link {
+	color: white;
+	font-weight: 700;
+}
+
+.app-logo {
+	width: 40%;
+}
+
+@media (min-width: 650px) {
+	.app-logo {
+		width: 15%;
+	}
+}
+
+.img-gallery {
+	width: 60%;
+	margin: 0.5em;
+	border: 2px solid #005073;
+	border-radius: 20px;
+}
+@media (min-width: 650px) {
+	.img-gallery {
+		width: 30%;
+	}
+}
+
+.main,
+.main.gallery {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+@media (min-width: 650px) {
+	.main.gallery {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+.header,
+.footer {
+	width: 100vw;
+	height: 7vh;
+	background-color: #005073;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+@media (min-width: 650px) {
+	.header {
+		justify-content: left;
+		text-align: left;
+	}
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+/* ---- 
+ID
+---- */
+#img-maria-lambour {
+	border: 2px solid #005073;
+	border-radius: 10px;
+	width: 50%;
+}
+
+@media (min-width: 650px) {
+	#img-maria-lambour {
+		width: 12%;
+	}
+}
