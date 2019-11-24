@@ -12,8 +12,6 @@ app.get('/', (request, response, next) => {
   response.sendFile(__dirname + '/views/index.html');
 });
 
-
-
 // Server Started
 app.listen(3000, () => {
   console.log('My first app listening on port 3000!');
@@ -28,6 +26,6 @@ app.get('/shark', (request, response, next) => {
     response.sendFile(__dirname + '/views/fox.html');
   });
 
-  app.get('/shark', (request, response, next) => {
+  app.get('/chick', (request, response, next) => {
     response.sendFile(__dirname + '/views/chick.html');
   });

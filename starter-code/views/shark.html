@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="/css/levels.css">
+  <script src="/views/levels.js"></script>
 </head>
 <body>
+    <div class="question">
+  <p>1. The HTML global attribute, "contenteditable " is used to: </p>
+        <label>
+          <input type="radio" name="answers[1]" value="A">
+      Specifies a context menu for an element. The menu appears when a user right-clicks on the element
+
+        </label>
+      
+        <label>
+          <input type="radio" name="answers[1]" value="B" data-correct>
+          Specify whether the content of an element should be editable or not        </label>
+      
+        <label>
+          <input type="radio" name="answers[1]" value="C">
+          Update content from the server
+          </label>
+      </div>
+      
     
+      
+      <button id="quiz-submit">Submit</button>
+      
+      <div>
+        Score: <span id="score">0</span>
+      </div>
 </body>
 </html>
