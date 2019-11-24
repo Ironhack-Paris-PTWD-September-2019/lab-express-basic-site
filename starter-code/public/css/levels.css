@@ -1,0 +1,37 @@
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  .question {
+   display: flex;
+   flex-direction: column;
+    padding: 1em;
+    background: #eee;
+    margin-bottom: 1em;
+  }
+  
+  .quiz-msg {
+    padding: 0.5em;
+    margin-top: 1em;
+  }
+  .quiz-msg.correct {
+    background: #e8ffc6;
+  }
+  .quiz-msg.incorrect {
+    background: #ffe5cc;
+  }
+  
+  .correct {
+    background: green;
+    padding: 0.2em;
+  }
+
+  p{
+      color: darkcyan;
+    }
+
+  label {
+      padding: 20px;
+
+    }
