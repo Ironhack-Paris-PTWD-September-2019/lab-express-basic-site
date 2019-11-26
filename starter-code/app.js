@@ -7,18 +7,22 @@ const app = express();
 // Make everything inside of public/ available
 app.use(express.static('public'));
 
+app.set('views', __dirname + '/views');
+
+app.set('view engine', 'hbs');
+
 // home route:
 app.get('/', (request, response, next) => {
-  response.sendFile(__dirname + '/views/home.html');
+  response.render('home');
 });
 
 // about route:
-app.get('/about.html', (request, response, next) => {
-  response.sendFile(__dirname + '/views/about.html');
+app.get('/about', (request, response, next) => {
+  response.render('about');
 });
 //mytea
-app.get('/mytea.html', (request, response, next) => {
-    response.sendFile(__dirname + '/views/mytea.html');
+app.get('/mytea', (request, response, next) => {
+    response.render('mytea');
   });
 
 // Server Started
