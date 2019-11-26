@@ -1,0 +1,260 @@
+* {box-sizing:border-box;}
+
+body {
+  margin:0;  /* annule style par défault */
+  font-family: sans-serif;
+}
+
+.homePage {
+  background-image:url("./images/the-en-vrac.jpg");
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+nav {
+  background-color: #fff;
+  display:flex; align-items:center;
+  position:fixed; left:0; top:0; z-index: 99999;
+  width:100%;
+  color:white;
+  background-color: green
+}
+
+nav ul {
+  margin-left:auto;
+  margin-top:0;margin-bottom:0; /* annule style par défault */
+  padding-left:0; /* annule style par défault */
+  margin-right:20px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 125%;
+  line-height: 90px;
+  padding:0 1em;
+}
+
+.landing {
+  margin-top : 8em;
+  margin-left: 2em;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2em;
+}
+
+.teaAndPicture{
+  display: flex;
+  margin-bottom: 5em;
+  margin-left :5em
+}
+
+.teaDescription {
+  width: 25em;
+  color:white;
+}
+
+.teaPic {
+  margin-left:auto;
+  margin-right: 1em;
+}
+
+.teaPicture {
+  height: 15em;
+}
+
+.teaAndPictureMaroc{
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.teaDescriptionMaroc {
+  width: 25em; 
+  margin-right: 1em;
+  margin-left: 2em;
+  color:white;
+}
+
+.teaPicMaroc {
+  margin-left:3em;
+  margin-right: 1em;
+}
+
+.teaPictureMaroc {
+  height: 15em;
+}
+
+
+/* +-+ +-+ +-+ +-+ +-+   +-+ +-+ +-+ +-+
+|a| |b| |o| |u| |t|   |p| |a| |g| |e|
++-+ +-+ +-+ +-+ +-+   +-+ +-+ +-+ +-+ */
+
+.subtitle {
+  color: white;
+  font-size: 2em;
+}
+
+.greenTeaAndPicture {
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.greenTeaDescription {
+  width: 25em;
+  color:black;
+}
+
+.greenTeaPic {
+  margin-left:auto;
+  margin-right: 1em;
+}
+
+.greenTeaPicture {
+  height: 20em;
+}
+
+.blackTeaAndPicture{
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.blackTeaDescription {
+  width: 25em; 
+  margin-right: 1em;
+  margin-left: 2em;
+  color:black;
+}
+
+.blackTeaPic {
+  margin-left:3em;
+  margin-right: 1em;
+}
+
+.blakcTeaPicture {
+  height: 15em;
+}
+/*MY TEA MARKET PLACE/ 
+/* NAV BAR*/
+* {box-sizing:border-box;}
+body {
+  margin:0;  /* annule style par défault */
+  font-family: “Open Sans”, sans-serif;
+}
+a {
+  color:inherit;
+  text-decoration:none;
+}
+nav {
+  background-color: #fff;
+  display:flex; align-items:center;
+  position:fixed; left:0; top:0; z-index: 99999;
+  width:100%;
+  color:white;
+  background-color: green
+}
+nav ul {
+  margin-left:auto;
+  margin-top:0;margin-bottom:0; /* annule style par défault */
+  padding-left:0; /* annule style par défault */
+  margin-right:20px;
+}
+nav ul li {
+  display: inline;
+  font-size: 125%;
+  line-height: 90px;
+  padding:0 1em;
+}
+
+/* ---------------------------------mytea page*/ 
+
+#section1 {
+    background-color:white; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+.myTeas{
+    margin-bottom: 50px; 
+    text-align: center; 
+    font-style: bold; 
+    font-size: 25px;
+    text-decoration-color: #00B172;
+}
+.myTeas h2{
+    display:inline-block;
+    font-size:150%;
+    border-bottom: 5px solid #1ea758;
+    padding-bottom:.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.myTeaspictures{
+    display:flex; 
+    justify-content: center; 
+}
+
+.mariageFreres{
+    text-align: left; 
+    margin-left:0%; 
+    font-size: 20px;  
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.mariageFreres img{
+    height: 95px; 
+    margin-left: 15%; 
+}
+.mariageFreres h3{
+    color: #1ea758;
+    font-weight: bold;
+}
+
+.dammannFreres{
+    text-align: center; 
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.dammannFreres img{
+    height: 95px; 
+}
+.dammannFreres h3{
+    color: #1ea758; 
+    font-weight: bold;
+}
+.kusmeaTea{
+    text-align: left; 
+    margin-left:0%; 
+    font-size: 20px;  
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.kusmeaTea img{
+    height: 95px; 
+    margin-left: 15%; 
+}
+.kusmeaTea h3{
+    color: #1ea758;
+    font-weight: bold;
+}
+
+.twinningsTea{
+    text-align: center; 
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.twinningsTea img{
+    height: 95px; 
+}
+.twinningsTea h3{
+    color: #1ea758; 
+    font-weight: bold;
+}
+
+
+
