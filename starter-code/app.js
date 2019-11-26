@@ -13,11 +13,11 @@ app.get('/', (request, response, next) => {
 });
 
 // about route:
-app.get('/about', (request, response, next) => {
+app.get('/about.html', (request, response, next) => {
   response.sendFile(__dirname + '/views/about.html');
 });
 //mytea
-app.get('/mytea', (request, response, next) => {
+app.get('/mytea.html', (request, response, next) => {
     response.sendFile(__dirname + '/views/mytea.html');
   });
 
